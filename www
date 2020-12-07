@@ -1,5 +1,5 @@
 const http = require('http')
-const app = require('./src/app.js')
+const app = require('./src/index.js')
 var debug = require('debug')('demo:server');
 
 const port = normalizePort(process.env.PORT || '3000');
